@@ -3,41 +3,41 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
-  return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">AYUSH KAPRUWAN </span>
-            from <span className="purple"> Rishikesh, Uttarakhand, India.</span>
-            <br />
-            I am currently employed as a Software Developement Engineering Intern at Koolio.
-            <br />
-            I am final year Computer Engineering student at College Of Technology, Pantnagar, Uttarakhand.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Outdoor Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Watching Technologies Videos
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+    return (
+        <Card className="quote-card-view">
+            <Card.Body>
+                <blockquote className="blockquote mb-0">
+                    <p style={{ textAlign: "justify" }}>
+                        Hi Everyone, I am <span className="purple">AYUSH KAPRUWAN </span>
+                        from <span className="purple"> Rishikesh, Uttarakhand, India.</span>
+                        <br />
+                        I am currently employed as a Software Engineer at Koolio.
+                        <br />
+                        I have completed my Btech in Computer Engineering student from College Of Technology, Pantnagar, Uttarakhand.
+                        <br />
+                        <br />
+                        Apart from coding, some other activities that I love to do!
+                    </p>
+                    <ul>
+                        <li className="about-activity">
+                            <ImPointRight /> Playing Outdoor Games
+                        </li>
+                        <li className="about-activity">
+                            <ImPointRight /> Watching Technologies Videos
+                        </li>
+                        <li className="about-activity">
+                            <ImPointRight /> Travelling
+                        </li>
+                    </ul>
 
-          {/* <p style={{ color: "rgb(155 126 172)" }}>
+                    {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Soumyajit</footer> */}
-        </blockquote>
-      </Card.Body>
-    </Card>
-  );
+                </blockquote>
+            </Card.Body>
+        </Card>
+    );
 }
 
 export default AboutCard;
